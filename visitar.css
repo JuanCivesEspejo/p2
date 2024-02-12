@@ -237,3 +237,96 @@ h4
     font-size: xx-large;
     color: rgb(169, 224, 244);
 }
+
+@media (max-width: 700px)
+{
+    header
+    {
+        background-position: center;
+        height: 25rem;
+    }
+
+    header .textos_header
+    {
+        display: flex;
+        color:white;
+        width: 100%;
+        height: 30rem;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textos_header h1
+    {
+        font-size: 2rem;
+    }
+
+    .textos_header h2
+    {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem;
+    }
+
+    #titulo_patrimonio
+    {
+        font-size: 2rem;
+        height: 20rem; 
+    }
+
+    #titulo_hospedaje
+    {
+        font-size: 2rem;
+        height: 20rem; 
+    }
+
+    #texto_patrimonio
+    {
+        padding: 2rem;
+        font-size: small;
+    }
+
+    #texto_hospedaje
+    {
+        padding: 2rem;
+        font-size: small;
+    }
+
+    .contenedor_tabla
+    {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    #leyenda_tabla 
+    {
+        font-size: 1.5rem;
+    }
+
+    .tabla_hoteles tr th
+    {
+        padding: 0.5rem;
+        font-size: small;
+    }
+
+    .tabla_hoteles tr td
+    {
+        padding: 0.5rem;
+        font-size: x-small;
+    }
+
+    h4
+    {
+        font-size: x-small;
+    }
+
+    #titulo_final
+    {
+        font-size: small;
+    }
+
+    #contenedor_patrimonio
+    {
+        padding: 10rem 0rem 2rem 0rem;
+    }
+}
