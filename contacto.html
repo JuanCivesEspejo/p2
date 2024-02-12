@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Cullera, Valencia </title>
+        <link rel="stylesheet" href="contacto.css">
+        <link rel="shortcut icon" href="img/Logo_cullera.png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class = "navegador">
+                    <li><a href="index.html"> Inicio </a></li>
+                    <li><a href="visitar.html"> Qué visitar </a></li>
+                    <li><a href="ocio.html"> Ocio </a></li>
+                    <li><a href="contacto.html"> Contáctanos </a></li>
+                </ul>
+            </nav>
+            <section class="textos_header">
+                <h1> Rellena el siguiente formulario</h1>
+                <h2> Recibirás información acerca de Cullera </h2>
+            </section>
+        </header>
+        <main>
+            <section id="contenedor_formulario">
+                <h2 id="titulo_formulario"> Estás creca de conocernos </h2>
+                <p id="texto_formulario">
+                    ¿Felicidades, estás muy cerca de conocernos! Rellenando el siguiente formulario, 
+                    podrás recibir información acerca de Cullera. Te avisaremos de próximos eventos y 
+                    ofertas, para que puedas escoger el mejor momento para realizar tu visita. En el 
+                    siguiente formulario, es imprescindible que indiques, al menos, tu nombre, un teléfono
+                    y un correo elctrónico.
+                </p>
+
+                <form class="formulario" action="contacto.html" method="post">
+                    <h2 id="titullo_formulario">Quiero recibir información</h2>
+                        <fieldset>
+                            <legend>Datos personales</legend>
+                                <p>
+                                    <label for="name_id">Nombre:</label>
+                                    <input class="info_personal" type="text" id="name_id" name="nombre" placeholder="Ingrese su nombre" required>  
+                                </p>
+                                <p>
+                                    <label for="phone_id">Teléfono:</label>
+                                    <input class="info_personal" type="tel" id="phone id" name="telefono" placeholder="Ingrese su número de teléfono" required>
+                                </p>
+                                <p>
+                                    <label for="email_id">Email:</label>
+                                    <input class="info_personal" type="email" id="email_id" name="email" placeholder="Ingrese su correo electrónico" required>
+                                </p>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Recursos Naturales</legend>
+                            <p>
+                             <label for="playa_id" required>Qué playa le ha llamado la atención:</label><br>
+                              <select name="playa" id="playa_id">
+                                <option value="Playa de San Antonio"> Playa de San Antonio </option>
+                                <option value="Playa del Faro"> Playa del Faro </option>
+                                <option value="Playa Dosel"> Playa Dosel </option>
+                                <option value="Playa Cap Blanc"> Playa Cap Blanc </option>
+                              </select>
+                            </p>
+                            <p id="opcion_excluyente">Quiere recibir información acerca de nuestros senderos:
+                             <ul>
+                                <li>
+                                    <input type="radio" id="sendero-si_id" name="sendero" value="Si">
+                                    <label for="sendero-si_id">Sí</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="sendero-no_id" name="sendero" value="No">
+                                    <label for="sendero-no_id">No</label>
+                                </li>
+                             </ul>
+                            </p>
+                            <p id="opcion_multiple">Recibir información adicional acerca de:
+                             <ul>
+                              <li>
+                                <input type="checkbox" id="castillo_id" name="adicional" value="castillo">
+                                <label for="castillo_id"> Castillo de Cullera </label>
+                              </li>
+                              <li>
+                                <input type="checkbox" id="medusa_id" name="adicional" value="medusa">
+                                <label for="medusa_id"> Medusa Festival </label>
+                              </li>
+                             </ul>
+                            </p>
+                           </fieldset>
+                           <fieldset class="botones">
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar todo">
+                          </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <figure id="contenedor_footer">
+                <h4>Cullera, Valencia</h4>
+                <h4>A febrero de 2024</h4>
+            </figure>
+            <h2 id="titulo_final">&copy; Diseño de Juan Cives | ICAI GITT+BA</h2>
+        </footer>
+    </body>

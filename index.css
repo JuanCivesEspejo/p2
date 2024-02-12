@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: beige;
+}
+
+section
+{
+    padding: 3rem 0;
+    margin: auto;
+}
+
+.contenedor_rrss
+{
+    margin: auto;
+    width:100%;
+    max-width: 140rem;
+    overflow: hidden;
+}
+
+.contenedor_principal_imagenes
+{
+    margin: auto;
+    width: 100%;
+    max-width: 140rem;
+    overflow: hidden;
+}
+
+header
+{
+    width: 100%;
+    height: 40rem;
+    background:linear-gradient(to right, rgba(230, 91, 10, 0.616), rgb(255, 208, 0, 0.616)), url(img/header_imagen.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navegador
+{  
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    background:linear-gradient(to right, rgba(230, 91, 10, 0.816), rgb(255, 208, 0, 0.816));
+    padding: 0;  
+    position: fixed;
+}
+
+.navegador li 
+{
+    flex: 1 1 0;
+}
+
+.navegador li:first-child
+{
+    flex: 2 1 0;
+}
+
+.navegador a
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+    color: white;
+    user-select: none;
+}
+
+.navegador li:hover
+{
+    background: rgba(230, 91, 10, 0.816);
+}
+
+header .textos_header
+{
+    display: flex;
+    color:white;
+    width: 100%;
+    height: 30rem;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos_header h1
+{
+    font-size: 4rem;
+}
+
+.textos_header h2
+{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+#contenedor_enamorate
+{
+    padding: 10rem 0rem 10rem 0rem;
+    width: 100%
+}
+
+#titulo_enamorate
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 8rem;
+    height: 40rem;
+    background: url(img/enamorate_cullera.png);
+    background-size: cover;    
+}
+
+.contenedor_principal_imagenes
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen_contenedor_principal
+{
+    display: block;
+    width: 40%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+#texto_enamorate
+{
+    padding: 5rem;
+    font-size: x-large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#rrss
+{
+    width: 100%;
+}
+
+#titulo_rss
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 8rem;
+    height: 40rem; 
+    background:linear-gradient(to right, rgba(230, 91, 10, 0.816), rgb(255, 208, 0, 0.816));
+}
+
+#texto_rrss
+{
+    padding: 5rem;
+    font-size: x-large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor_rrss
+{
+    display:flex;
+    justify-content: center;
+}
+
+footer
+{
+    background: rgb(26, 188, 247);
+    padding: 2rem;
+    margin: auto;
+}
+
+#contenedor_footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 0rem 2rem;
+}
+
+h4
+{
+    font-size: larger;
+    color:white;
+}
+
+#titulo_final
+{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(169, 224, 244);
+}
+

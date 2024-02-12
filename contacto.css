@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: beige;
+}
+
+section
+{
+    padding: 3rem 0;
+    margin: auto;
+}
+
+.formulario
+{
+    margin: auto;
+    width:100%;
+    max-width: 140rem;
+    overflow: hidden;
+}
+
+header
+{
+    width: 100%;
+    height: 40rem;
+    background:linear-gradient(to right, rgba(230, 91, 10, 0.616), rgb(255, 208, 0, 0.616)), url(img/conocenos_header.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navegador
+{  
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    background:linear-gradient(to right, rgba(230, 91, 10, 0.816), rgb(255, 208, 0, 0.816));
+    padding: 0;  
+    position: fixed;
+}
+
+.navegador li 
+{
+    flex: 1 1 0;
+}
+
+.navegador li:first-child
+{
+    flex: 2 1 0;
+}
+
+.navegador a
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+    color: white;
+    user-select: none;
+}
+
+.navegador li:hover
+{
+    background: rgba(230, 91, 10, 0.816);
+}
+
+header .textos_header
+{
+    display: flex;
+    color:white;
+    width: 100%;
+    height: 30rem;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos_header h1
+{
+    font-size: 4rem;
+}
+
+.textos_header h2
+{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+#contenedor_formulario
+{
+    padding: 10rem 0rem 10rem 0rem;
+    width: 100%
+}
+
+#titulo_formulario
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 7rem;
+    height: 40rem;
+    background: linear-gradient(to right, rgba(230, 91, 10, 0.816), rgb(255, 208, 0, 0.816));
+}
+
+#texto_formulario
+{
+    padding: 5rem;
+    font-size: x-large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+fieldset
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.formulario
+{
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(rgba(230, 91, 10, 0.816), rgb(255, 208, 0, 0.816));
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.formulario h2
+{
+    color: white;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+legend
+{
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-weight: bolder;
+    margin-bottom: 1.5rem; 
+}
+
+label
+{
+    font-size: 1.2rem;
+}
+
+p label 
+{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.info_personal
+{
+    width:100%;
+    background: white;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid rgb(138, 109, 41);
+}
+
+select 
+{
+    width: 100%;
+    padding: 0.75rem;
+    border: 0.1rem solid rgb(138, 109, 41);
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+select option:checked 
+{
+    background-color: rgb(255, 208, 0, 0.816);
+}
+
+.formulario li
+{
+    list-style: none;
+}
+
+#opcion_excluyente
+{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+#opcion_multiple
+{
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+footer
+{
+    background: rgb(26, 188, 247);
+    padding: 2rem;
+    margin: auto;
+}
+
+#contenedor_footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 0rem 2rem;
+}
+
+.botones input
+{
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    border: 0.1rem solid rgb(138, 109, 41);
+    font-size: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.botones input:hover
+{
+    background: rgba(230, 91, 10, 0.816);
+    cursor: pointer;
+}
+
+h4
+{
+    font-size: larger;
+    color:white;
+}
+
+#titulo_final
+{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(169, 224, 244);
+}
